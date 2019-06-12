@@ -1,0 +1,6 @@
+Build:
+#docker build -t python-helloworld .
+
+Run:
+#docker run python-helloworld
+

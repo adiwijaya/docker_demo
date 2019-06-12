@@ -1,0 +1,12 @@
+Save:
+#docker save -o python-helloworld-image python-helloworld
+
+Transfer:
+#scp root@[IP]:/home/adi/git/docker_demo/python-helloworld-image /home/adi/docker/python-helloworld-image
+
+Load:
+#docker load -i python-helloworld-image
+
+Run:
+#docker run python-helloworld
+
